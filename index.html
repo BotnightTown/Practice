@@ -19,31 +19,38 @@
 <header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="media/team logo/NAVI_Logo.png" alt="navipedia_logo" class="d-inline-block align-text-top"> NaviPedia</a>
+    <a class="navbar-brand" href="index.html">
+      <div class="navbar-brand-logo">
+        <img src="media/team logo/NAVI_Logo.png" alt="navipedia_logo" class="d-inline-block align-text-top">
+      </div>
+      <div class="navbar-brand-name">
+        NaviPedia
+      </div>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-fire"></i> Matches</a>
+          <a class="nav-link" href="matches.html"><i class="bi bi-fire"></i> Matches</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-file-earmark-spreadsheet"></i> Results</a>
+          <a class="nav-link" href="results.html"><i class="bi bi-file-earmark-spreadsheet"></i> Results</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bi bi-controller"></i> Events
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">All Events</a></li>
+            <a class="dropdown-item" href="events.html">All Events</a></li>
             <li><a class="dropdown-item" href="#">Ongoing</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Archive</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="bi bi-image"></i> Gallery</a>
+          <a class="nav-link" href="gallery.html"><i class="bi bi-image"></i> Gallery</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -76,9 +83,6 @@
   </div>
   <div class="offcanvas-body" id="offcanvasContent">
     <div class="list-group">
-      <button type="button" class="list-group-item list-group-item-action" aria-current="true">
-        The current button
-      </button>
       <button type="button" class="list-group-item list-group-item-action">News</button>
       <button type="button" class="list-group-item list-group-item-action">Matches</button>
       <button type="button" class="list-group-item list-group-item-action">Results</button>
@@ -92,195 +96,200 @@
 
 
 <main>
+<section>
 <article>
-  <div class="news-block-title" id="recent-news">
-    Recent News
-  </div>
-  <div class="news-container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="news-col">
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">MOUZ COMPLETE BROLLAN SIGNING</p>
-              <img src="media/Brollan.png" alt="Brollan">
-              <p class="news-text">The 21-year-old rifler has joined the German organization permanently after impressing on loan.</p>
-            </a>
+  <div class="recent-news">
+    <div class="news-block-title" id="recent-news">
+      Recent News
+    </div>
+    <div class="news-container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="news-col">
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">MOUZ COMPLETE BROLLAN SIGNING</p>
+                <img src="media/Brollan.png" alt="Brollan">
+                <p class="news-text">The 21-year-old rifler has joined the German organization permanently after impressing on loan.</p>
+              </a>
+            </div>
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">
+                  INATION CEASE OPERATIONS
+                </p>
+                <p class="news-text">
+                  iNation has announced they are discontinuing operations and that the players on their books are "free to pursue new opportunities." The news comes in the face of Valve's recent updates to the Major rulebook, which included the removal of Major open qualifiers in Europe.
+                </p>
+              </a>
+            </div>
           </div>
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">
-                INATION CEASE OPERATIONS
-              </p>
-              <p class="news-text">
-                iNation has announced they are discontinuing operations and that the players on their books are "free to pursue new opportunities." The news comes in the face of Valve's recent updates to the Major rulebook, which included the removal of Major open qualifiers in Europe.
-              </p>
-            </a>
+        </div>
+        <div class="col-md-4">
+          <div class="news-col">
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">SDY: "ENCE WAS THE BEST OPPORTUNITY FOR ME"</p>
+                <img src="media/sdy_ENCE.jpg" alt="sdy">
+                <p class="news-text">
+                  Despite a lack of preparation time, sdy says the team aims to play to their best and win the title in Abu Dhabi, no matter the circumstances they are in.
+                  <blockquote>
+                  I received some offers, maybe four or five, but none of them were really [right] for me</blockquote>
+                  <cite>Viktor "⁠sdy⁠" Orudzhev</cite>
+                </p>
+              </a>
+            </div>
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">
+                  IM: "I OBVIOUSLY CARED THAT I WON THE MAJOR, BUT IT'S JUST ANOTHER TROPHY"
+                </p>
+                <p class="news-text">
+                  iM believes that getting caught up on the Major win would hinder efforts to succeed in later events.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="news-col">
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">M0NESY TO MISS BLAST SPRING FINAL; TAZ TO STEP IN</p>
+                <p class="news-text">G2 will be playing their second consecutive tournament without their full roster.</p>
+              </a>
+            </div>
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">
+                  910 ON WINNING MVP: "INDESCRIBABLE FEELING"
+                </p>
+                <p class="news-text">
+                  The 21-year-old AWPer struggled to find the right words to explain what he felt about making history for Mongolian Counter-Strike.
+                </p>
+              </a>
+            </div>
+            <div class="news-block">
+              <a href="#">
+                <p class="news-title">
+                  BLAST PREMIER SPRING FINAL 2024 TEAMS, FORMAT, SCHEDULE, TALENT, PRIZES, FANTASY
+                </p>
+                <img src="media/BlastPremier2.jpg" alt="BlastPremier">
+                <p class="news-text">
+                  The BLAST Premier Spring Final will draw the curtain on the first half of the year, and with seven out of the current top-nine teams in attendance, it brings a mouth-watering fight for one last trophy of the season.
+                </p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="news-col">
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">SDY: "ENCE WAS THE BEST OPPORTUNITY FOR ME"</p>
-              <img src="media/sdy_ENCE.jpg" alt="sdy">
-              <p class="news-text">
-                Despite a lack of preparation time, sdy says the team aims to play to their best and win the title in Abu Dhabi, no matter the circumstances they are in.
-                <blockquote>
-                I received some offers, maybe four or five, but none of them were really [right] for me</blockquote>
-                <cite>Viktor "⁠sdy⁠" Orudzhev</cite>
-              </p>
-            </a>
-          </div>
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">
-                IM: "I OBVIOUSLY CARED THAT I WON THE MAJOR, BUT IT'S JUST ANOTHER TROPHY"
-              </p>
-              <p class="news-text">
-                iM believes that getting caught up on the Major win would hinder efforts to succeed in later events.
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="news-col">
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">M0NESY TO MISS BLAST SPRING FINAL; TAZ TO STEP IN</p>
-              <p class="news-text">G2 will be playing their second consecutive tournament without their full roster.</p>
-            </a>
-          </div>
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">
-                910 ON WINNING MVP: "INDESCRIBABLE FEELING"
-              </p>
-              <p class="news-text">
-                The 21-year-old AWPer struggled to find the right words to explain what he felt about making history for Mongolian Counter-Strike.
-              </p>
-            </a>
-          </div>
-          <div class="news-block">
-            <a href="#">
-              <p class="news-title">
-                BLAST PREMIER SPRING FINAL 2024 TEAMS, FORMAT, SCHEDULE, TALENT, PRIZES, FANTASY
-              </p>
-              <img src="media/BlastPremier2.jpg" alt="BlastPremier">
-              <p class="news-text">
-                The BLAST Premier Spring Final will draw the curtain on the first half of the year, and with seven out of the current top-nine teams in attendance, it brings a mouth-watering fight for one last trophy of the season.
-              </p>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-  <div class="news-block-title" id="later-news">
-    Later News
+  <div class="later-news">
+    <div class="news-block-title" id="later-news">
+      Later News
+    </div>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/Team_Vitality_logo.png" alt="Vitality">
+        </div>
+        <div class="later-news-text">
+          mezii: "I feel like I've found my place within the team"
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/Blast.png" alt="Blast">
+        </div>
+        <div class="later-news-text">
+          Live updates from BLAST Premier Spring Final semi-finals
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/NAVI_Logo.png" alt="navi">
+        </div>
+        <div class="later-news-text">
+          Aleksib on NAVI's post-Major slump: "It felt like we lost ourselves"
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/3DMAX_logo.png" alt="3DMAX">
+        </div>
+        <div class="later-news-text">
+          3DMAX qualify for Skyesports Championship
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/The_MongolZ_logo.png" alt="The MongolZ">
+        </div>
+        <div class="later-news-text">
+          The MongolZ eliminated as ESL Challenger Jönköping reaches playoffs
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/Into_The_Breach_logo.png" alt="Into the Breach">
+        </div>
+        <div class="later-news-text">
+          Into the Breach announce Keoz signing
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/Astralis_logo.png" alt="Astralis">
+        </div>
+        <div class="later-news-text">
+          Staehr: "If we raise our lowest level, we can become contenders for almost every tournament"
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/Virtus.pro_Logo.png" alt="Virtus.pro">
+        </div>
+        <div class="later-news-text">
+          Virtus.pro head to Spring Final semis over Astralis
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/G2_Logo.png" alt="G2">
+        </div>
+        <div class="later-news-text">
+          m0NESY on G2's season: "We deserve a bit of hate, we could have done much better"
+        </div>
+      </div>
+    </a>
+    <a href="#" class="later-news-block-a">
+      <div class="later-news-block">
+        <div class="later-news-logo">
+          <img src="media/team logo/FiReLEAGUE_logo.png" alt="FiReLEAGUE">
+        </div>
+        <div class="later-news-text">
+          FiReLEAGUE 2024 Global Finals set to start
+        </div>
+      </div>
+    </a>
   </div>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/Team_Vitality_logo.png" alt="Vitality">
-      </div>
-      <div class="later-news-text">
-        mezii: "I feel like I've found my place within the team"
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/Blast.png" alt="Blast">
-      </div>
-      <div class="later-news-text">
-        Live updates from BLAST Premier Spring Final semi-finals
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/NAVI_Logo.png" alt="navi">
-      </div>
-      <div class="later-news-text">
-        Aleksib on NAVI's post-Major slump: "It felt like we lost ourselves"
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/3DMAX_logo.png" alt="3DMAX">
-      </div>
-      <div class="later-news-text">
-        3DMAX qualify for Skyesports Championship
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/The_MongolZ_logo.png" alt="The MongolZ">
-      </div>
-      <div class="later-news-text">
-        The MongolZ eliminated as ESL Challenger Jönköping reaches playoffs
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/Into_The_Breach_logo.png" alt="Into the Breach">
-      </div>
-      <div class="later-news-text">
-        Into the Breach announce Keoz signing
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/Astralis_logo.png" alt="Astralis">
-      </div>
-      <div class="later-news-text">
-        Staehr: "If we raise our lowest level, we can become contenders for almost every tournament"
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/Virtus.pro_Logo.png" alt="Virtus.pro">
-      </div>
-      <div class="later-news-text">
-        Virtus.pro head to Spring Final semis over Astralis
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/G2_Logo.png" alt="G2">
-      </div>
-      <div class="later-news-text">
-        m0NESY on G2's season: "We deserve a bit of hate, we could have done much better"
-      </div>
-    </div>
-  </a>
-  <a href="#" class="later-news-block-a">
-    <div class="later-news-block">
-      <div class="later-news-logo">
-        <img src="media/team logo/FiReLEAGUE_logo.png" alt="FiReLEAGUE">
-      </div>
-      <div class="later-news-text">
-        FiReLEAGUE 2024 Global Finals set to start
-      </div>
-    </div>
-  </a>
 </article>
 <aside>
   <div class="matches">
@@ -290,17 +299,17 @@
     <div class="matches-list">
       <a href="#" class="matches-link">
         <div class="match">
-          <div class="team-rows">
-            <div class="team-info">
-              <span class="team-logo">
+          <div class="matches-team-rows">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Monte_logo.png" alt="Monte">
               </span>
               <span class="team-name">
                 Monte
               </span>
             </div>
-            <div class="team-info">
-              <span class="team-logo">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Zero_Tenacity_Logo.png" alt="Zero Tenacity">
               </span>
               <span class="team-name">
@@ -334,17 +343,17 @@
       </a>
       <a href="#" class="matches-link">
         <div class="match">
-          <div class="team-rows">
-            <div class="team-info">
-              <span class="team-logo">
+          <div class="matches-team-rows">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Faze_Clan.svg" alt="FaZe">
               </span>
               <span class="team-name">
                 FaZe
               </span>
             </div>
-            <div class="team-info">
-              <span class="team-logo">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/SAW_Logo.png" alt="SAW">
               </span>
               <span class="team-name">
@@ -378,17 +387,17 @@
       </a>
       <a href="#" class="matches-link">
         <div class="match">
-          <div class="team-rows">
-            <div class="team-info">
-              <span class="team-logo">
+          <div class="matches-team-rows">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/G2_Logo.png" alt="g2">
               </span>
               <span class="team-name">
                 G2
               </span>
             </div>
-            <div class="team-info">
-              <span class="team-logo">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Team_Vitality_logo.png" alt="Vitality">
               </span>
               <span class="team-name">
@@ -403,17 +412,17 @@
       </a>
       <a href="#" class="matches-link">
         <div class="match">
-          <div class="team-rows">
-            <div class="team-info">
-              <span class="team-logo">
+          <div class="matches-team-rows">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/NAVI_Logo.png" alt="navi">
               </span>
               <span class="team-name">
                 Na`Vi
               </span>
             </div>
-            <div class="team-info">
-              <span class="team-logo">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Astralis_logo.png" alt="Astralis">
               </span>
               <span class="team-name">
@@ -428,17 +437,17 @@
       </a>
       <a href="#" class="matches-link">
         <div class="match">
-          <div class="team-rows">
-            <div class="team-info">
-              <span class="team-logo">
+          <div class="matches-team-rows">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Team_Spirit_Logo.png" alt="Team Spirit">
               </span>
               <span class="team-name">
                 Team Spirit
               </span>
             </div>
-            <div class="team-info">
-              <span class="team-logo">
+            <div class="matches-team-info">
+              <span class="matches-team-logo">
                 <img src="media/team logo/Virtus.pro_Logo.png" alt="Virtus.pro">
               </span>
               <span class="team-name">
@@ -456,12 +465,173 @@
       More matches
     </a>
   </div>
+  <div class="ranking">
+    <div class="ranking-title">
+      Ranking
+    </div>
+    <div class="ranking-teams-container">
+      <div class="ranking-teams-list">
+          <a href="#">
+            <div class="ranked-team first">
+              <span class="ranked-team-place">
+                <!-- 1 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Spirit
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Team_Spirit_Logo.png" alt="Team Spirit">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team second">
+              <span class="ranked-team-place">
+                <!-- 2 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Vitality
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Team_Vitality_logo.png" alt="Team Vitality">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team third">
+              <span class="ranked-team-place">
+                <!-- 3 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  MOUZ
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/MOUZ.png" alt="MOUZ">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 4 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Faze
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Faze_Clan.svg" alt="Faze">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 5 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Natus Vincere
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/NAVI_Logo.png" alt="Navi">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 6 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  G2
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/G2_Logo.png" alt="G2">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 7 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Virtus.pro
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Virtus.pro_Logo.png" alt="Virtus.pro">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 8 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Astralis
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Astralis_logo.png" alt="Astralis">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 9 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Complexity
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Complexity_darkmode.png" alt="Complexity">
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="ranked-team other">
+              <span class="ranked-team-place">
+                <!-- 10 -->
+              </span>
+              <div class="ranked-team-info">
+                <div class="ranked-team-name">
+                  Heroic
+                </div>
+                <div class="ranked-team-logo">
+                  <img src="media/team logo/Heroic_logo.png" alt="Heroic">
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+    </div>
+  </div>
 </aside>
-<div class="smth3">smth3</div>
+</section>
 </main>
+
 <footer>
   <p class="footer-text">Підтримати розробника: 4441 1144 6614 3854</p>
   <p class="footer-text">© Всі права (не)захищені. Проєкт на навчальну практику 2024.</p>
 </footer>
+
 </body>
 </html>
